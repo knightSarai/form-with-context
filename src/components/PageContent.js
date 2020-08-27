@@ -3,11 +3,10 @@ import {ThemeContext} from '../contexts/ThemeContext';
 
 export default class PageContent extends Component {
     static contextType = ThemeContext;
-
     render() {
         const {isDarkMode} = this.context;
         const styles = {
-            backgroundColor: isDarkMode? "#121858" : "#f4f4f4",
+            backgroundColor: isDarkMode? "#112d4e" : "#f4f4f4",
             height: "100vh",
             width: "100vw"
         }

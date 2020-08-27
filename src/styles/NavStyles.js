@@ -8,6 +8,10 @@ const styles = theme => ({
     grow: {
         flexGrow: 1
     },
+    language:{
+        fontSize: "1rem",
+        textTransform: "uppercase"
+    },
     menuButton: {
         marginLeft: -12,
         marginRight: 20
@@ -15,7 +19,7 @@ const styles = theme => ({
     title:{
         display: "none",
         [theme.breakpoints.up("sm")]: {
-            display: "bolck"
+            display: "block"
         }
     },
     search: {
